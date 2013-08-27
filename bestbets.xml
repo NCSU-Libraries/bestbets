@@ -1,0 +1,77 @@
+<add>
+  <doc>
+    <field name="id">ereserves</field>
+    <field name="title">Course Reserves</field>
+    <field name="url">https://reserves.lib.ncsu.edu/</field>
+    <field name="description">Get reserve readings for your courses</field>
+    <field name="keywords">reserves</field>
+    <field name="keywords">ereserve</field>
+    <field name="keywords">ereserves</field>
+    <field name="keywords">e-reserve</field>
+    <field name="keywords">e-reserves</field>
+    <field name="keywords">e reserve</field>
+    <field name="keywords">e reserves</field>
+    <field name="keywords">course reserve</field>
+    <field name="keywords">course reserves</field>
+    <field name="keywords">class reserves</field>
+    <field name="keywords">resevre</field>
+    <field name="keywords">reserved</field>
+    <field name="keywords">books on reserve</field>
+    <field name="keywords">reserve readings</field>
+    <field name="keywords">electronic reserve</field>
+    <field name="keywords">electronic reserves</field>
+    <field name="keywords">my course reserves</field>
+    <field name="keywords">courses</field>
+    <field name="keywords">electronic</field>
+    <field name="keywords">electronic</field>
+    <field name="keywords">electronic</field>
+    <field name="keywords">electronic</field>
+    <field name="keywords">electronic</field>
+  </doc>
+  <doc>
+    <field name="id">friends</field>
+    <field name="title">Friends of the Library</field>
+    <field name="url">https://www.lib.ncsu.edu/giving/friends</field>
+    <field name="description">The Friends of the Library is a group of community members, faculty, students, alumni, and corporate partners who support the NCSU Libraries.</field>
+    <field name="keywords">friends of the library</field>
+    <field name="keywords">friends of the libraries</field>
+    <field name="keywords">giving to the library</field>
+    <field name="keywords">giving to the libraries</field>
+    <field name="keywords">friends of library</field>
+    <field name="keywords">fol</field>
+  </doc>
+  <doc>
+    <field name="id">gis</field>
+    <field name="title">GIS Resources</field>
+    <field name="url">/gis/</field>
+    <field name="description">Overview of Geospatial Data Services at NCSU Libraries including GIS data, GIS news, accessing the ESRI Virtual Campus, and getting librarian help.</field>
+    <field name="keywords">gis</field>
+    <field name="keywords">geospatial</field>
+    <field name="keywords">esri</field>
+    <field name="keywords">esri virtual campus</field>
+    <field name="keywords">gis data</field>
+    <field name="keywords">jeff essic</field>
+    <field name="keywords">gis library</field>
+    <field name="keywords">gis lookup</field>
+  </doc>
+  <doc>
+    <field name="id">googlescholar</field>
+    <field name="title">Google Scholar</field>
+    <field name="url">/articles/google-scholar/</field>
+    <field name="description">Use Google Scholar and get access to articles via NCSU Libraries</field>
+    <field name="keywords">google scholar</field>
+    <field name="keywords">google search</field>
+    <field name="keywords">google com</field>
+    <field name="keywords">www google com</field>
+    <field name="keywords">googlescholar</field>
+    <field name="keywords">googlescholar</field>
+    <field name="keywords">google</field>
+  </doc>
+  <doc>
+    <field name="id">hbr</field>
+    <field name="title">Harvard Business Review</field>
+    <field name="url">/journals/more_info.php?id=31657</field>
+    <field name="description">Search and browse articles in the Harvard Business Review</field>
+    <field name="keywords">harvard business review</field>
+  </doc>
+</add>
