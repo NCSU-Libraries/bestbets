@@ -27,27 +27,30 @@ See included LICENSE.txt or [MIT-LICENSE](http://www.opensource.org/licenses/mit
 
 6. Add some BestBets to bestbets.xml.
 
-7. Index the BestBets using the included shell script: `sh updateBestBetsIndex.sh`
+7. Index the BestBets using the included shell script:
+
+```sh
+sh updateBestBetsIndex.sh
+```
 
 8. Then you can access your BestBet results with the following code:
 
-<pre>
-    // include the code
-    require_once('SolrPhpClient/Service.php');
-    require_once('bestbets.php');
-    
-    // instantiate a new BestBet object
-    $bestbet = new BestBet();
+```php
+// include the code
+require_once('SolrPhpClient/Service.php');
+require_once('bestbets.php');
 
-    // send a query to the best bet
-    $bestbet->solrQuery('hours');
+// instantiate a new BestBet object
+$bestbet = new BestBet();
 
-    // get information about the result
-    echo $bestbet->getTitle;
-    echo $bestbet->getUrl;
-    echo $bestbet->getDescription;
+// send a query to the best bet
+$bestbet->solrQuery('hours');
 
-</pre>
+// get information about the result
+echo $bestbet->getTitle;
+echo $bestbet->getUrl;
+echo $bestbet->getDescription;
+```
 
 ## Notes
 
