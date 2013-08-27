@@ -26,15 +26,15 @@ See included LICENSE.txt or http://www.opensource.org/licenses/mit-license.php
 
 8. Then you can access your BestBet results with the following code:
 
-`<?php`
-`require_once('SolrPhpClient/Service.php');`
-`require_once('bestbets.php');`
-`$bestbet = new BestBet();`
-`$bestbet->solrQuery('hours');`
-`echo $bestbet->getTitle;`
-`echo $bestbet->getUrl;`
-`echo $bestbet->getDescription;`
-`?>`
+    <?php
+    require_once('SolrPhpClient/Service.php');
+    require_once('bestbets.php');
+    $bestbet = new BestBet();
+    $bestbet->solrQuery('hours');
+    echo $bestbet->getTitle;
+    echo $bestbet->getUrl;
+    echo $bestbet->getDescription;
+    ?>
 
 ## Notes
 
