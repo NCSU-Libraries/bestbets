@@ -8,6 +8,10 @@ MIT/X11 License
 
 See included LICENSE.txt or [MIT-LICENSE](http://www.opensource.org/licenses/mit-license.php).
 
+## Production Installations
+
+* [NCSU Libraries' QuickSearch](http://www.lib.ncsu.edu/search?q=makerspace)
+* [Bryn Mawr, Swarthmore, and Haverford's Tripod](http://tripod.brynmawr.edu/find/Channels/Results?lookfor=science&type=&search=AllFields&submit=Find)
 
 ## Installation
 
