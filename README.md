@@ -15,25 +15,19 @@ See included LICENSE.txt or [MIT-LICENSE](http://www.opensource.org/licenses/mit
 
 ## Installation
 
-1. Drop the contents of the git repository in a web accessible directory on your server.
-
-2. Install Solr-PhpClient from [http://code.google.com/p/solr-php-client/](http://code.google.com/p/solr-php-client/).
-
-3. Install Solr from [http://lucene.apache.org/solr/](http://lucene.apache.org/solr/). (BestBets is known to work with Solr 3.5.)
-
-4. Start a Solr core using the schema.xml in this repository.
-
-5. There are two places in the code where you'll need to specify where your running Solr core can be accessed, once in bestbets.php and once in updateBestBetsIndex.sh.
-
-6. Add some BestBets to bestbets.xml.
-
-7. Index the BestBets using the included shell script:
+* Drop the contents of the git repository in a web accessible directory on your server.
+* Install Solr-PhpClient from [http://code.google.com/p/solr-php-client/](http://code.google.com/p/solr-php-client/).
+* Install Solr from [http://lucene.apache.org/solr/](http://lucene.apache.org/solr/). (BestBets is known to work with Solr 3.5.)
+* Start a Solr core using the schema.xml in this repository.
+* There are two places in the code where you'll need to specify where your running Solr core can be accessed, once in bestbets.php and once in updateBestBetsIndex.sh.
+* Add some BestBets to bestbets.xml.
+* Index the BestBets using the included shell script:
 
 ```sh
 sh updateBestBetsIndex.sh
 ```
 
-8. Then you can access your BestBet results with the following code:
+* Then you can access your BestBet results with the following code:
 
 ```php
 // include the code
